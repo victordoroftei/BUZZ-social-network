@@ -1,0 +1,213 @@
+.main-box {
+
+    /*-fx-background-color: #ffc801;*/
+    -fx-background-color: linear-gradient(rgba(255,200,1,1) 0%, rgba(255,222,102,1) 50%, rgba(255,233,153,1) 100%);
+}
+
+.small-label {
+
+    -fx-font-family: Verdana;
+    -fx-font-size: 16px;
+}
+
+.big-label {
+
+    -fx-font-family: Verdana;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.button {
+
+    -fx-appearance: none;
+    -fx-background-color: #ffc801;
+    -fx-border-color: rgba(27, 31, 35, .15);
+    -fx-border-width: 1 1 1 1;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 8px;
+    -fx-box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    -fx-box-sizing: border-box;
+    -fx-cursor: pointer;
+    -fx-display: inline-block;
+    -fx-font-family: Verdana;
+    -fx-font-size: 14px;
+    -fx-font-weight: 600;
+    -fx-line-height: 20px;
+    -fx-padding: 6px 16px;
+    -fx-position: relative;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-user-select: none;
+    -fx-webkit-user-select: none;
+    -fx-touch-action: manipulation;
+    -fx-vertical-align: middle;
+    -fx-white-space: nowrap;
+}
+
+.button:hover {
+
+    -fx-background-color: #ffe999;
+}
+
+.table-view {
+
+    -fx-background-color: transparent;
+    -fx-border-radius: 10 10 0 0;
+    -fx-border-color: #605c5c;
+    -fx-border-width: 1px;
+    -fx-table-cell-border-color: #605c5c;
+}
+
+.table-view:focused {
+
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background {
+
+    -fx-background-color: linear-gradient(#ffde66 0%, #ffe999 100%);
+}
+
+.table-view .column-header-background .label{
+
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+}
+
+.table-view .column-header {
+
+    -fx-background-color: transparent;
+    -fx-font-family: Verdana;
+    -fx-border-color: #605c5c;
+    -fx-border-width: 0 0 1 0;
+}
+
+.table-view .table-cell {
+
+    -fx-text-fill: black;
+}
+
+.table-row-cell {
+
+    -fx-font-family: Verdana;
+
+    -fx-background-color: -fx-table-cell-border-color, #ffde66;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:odd {
+
+    -fx-font-family: Verdana;
+
+    -fx-background-color: -fx-table-cell-border-color, #ffe999;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-view .column-header-background {
+
+    -fx-background-radius: 10 10 0 0;
+}
+
+.table-view .scroll-bar:horizontal {
+
+    -fx-min-width: 0;
+    -fx-pref-width: 0;
+    -fx-max-width: 0;
+
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+}
+
+.table-view .thumb {
+
+    -fx-background-color: #605c5c;
+}
+
+.table-view .decrement-arrow {
+
+    visibility: hidden;
+}
+
+.table-view .decrement-button {
+
+    visibility: hidden;
+}
+
+.table-view .increment-arrow {
+
+    visibility: hidden;
+}
+
+.table-view .increment-button {
+
+    visibility: hidden;
+}
+
+.back-button {
+
+    -fx-background-color: transparent;
+    -fx-background-image: url("img/back35.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-border-color: transparent;
+}
+
+.back-button:hover {
+
+    -fx-background-color: #ffe999;
+}
+
+.searchbar {
+
+    -fx-background-radius: 10px;
+    -fx-background-color: white;
+    -fx-font-family: Verdana;
+    -fx-font-size: 12px;
+    -fx-border-color: transparent;
+    -fx-selection-bar-text-fill: black;
+}
+
+.searchbar .arrow {
+
+    -fx-background-color: transparent;
+}
+
+.searchbar .arrow-button {
+
+    -fx-background-color: transparent;
+    -fx-background-image: url("img/search_smaller.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+.combo-box-popup {
+
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+.combo-box-popup .list-view {
+
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-background-color: black;
+}
+
+.searchbar:focused {
+
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.combo-box-popup > .list-view {
+
+    -fx-pref-width: 383;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-selection-bar: white;
+    -fx-selection-bar-non-focused: white;
+    -fx-selection-bar-text-fill: black;
+}

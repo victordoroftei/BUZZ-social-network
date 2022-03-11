@@ -1,0 +1,7 @@
+.button {
+
+    -fx-background-color: transparent;
+    -fx-background-image: url("img/mute.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}

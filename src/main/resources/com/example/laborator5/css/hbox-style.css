@@ -1,0 +1,28 @@
+.button {
+
+    -fx-background-color: transparent;
+    -fx-background-image: url("img/bell.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.hbox {
+
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: transparent;
+    -fx-background-color: #ffc801;
+}
+
+.hbox :hover {
+
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-width: 1px;
+    -fx-border-color: black;
+}
+
+.label {
+
+    -fx-font-family: Verdana;
+}

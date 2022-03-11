@@ -1,0 +1,50 @@
+.list-view {
+
+    /*-fx-background-color:  white;*/
+
+    -fx-background-color:  white;
+    -fx-background-radius: 10px;
+    -fx-border-color: transparent;
+    -fx-selection-bar: white;
+    -fx-selection-bar-non-focused: white;
+}
+
+.list-view .list-cell{
+
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+
+    -fx-background-color: white;
+}
+
+.list-view .list-cell:hover {
+
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.list-view .thumb {
+
+    -fx-background-color: #605c5c;
+    empty-cells: hidden;
+}
+
+.list-view .decrement-arrow {
+
+    visibility: hidden;
+}
+
+.list-view .decrement-button {
+
+    visibility: hidden;
+}
+
+.list-view .increment-arrow {
+
+    visibility: hidden;
+}
+
+.list-view .increment-button {
+
+    visibility: hidden;
+}

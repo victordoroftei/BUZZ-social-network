@@ -1,0 +1,91 @@
+.main-box {
+
+    -fx-background-color: linear-gradient(rgba(255,200,1,1) 0%, rgba(255,222,102,1) 50%, rgba(255,233,153,1) 100%);
+}
+
+.textarea {
+
+    -fx-font-family: Verdana;
+    -fx-prompt-text-fill: black;
+    -fx-background-color: white;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-width: 0px;
+    -fx-font-size: 12px;
+    -fx-text-box-border: #ffe999;
+
+}
+
+.textarea:focused {
+
+    -fx-focus-color: #ffe999;
+    -fx-faint-focus-color: transparent;
+}
+
+.textarea .scroll-pane {
+
+    -fx-background-color: transparent;
+}
+
+.textarea .scroll-pane .viewport{
+
+    -fx-background-color: transparent;
+}
+
+.textarea .scroll-pane .content{
+
+    -fx-background-color: transparent;
+}
+
+.normal-button {
+
+    -fx-appearance: none;
+    -fx-background-color: #ffc801;
+    -fx-border-color: rgba(27, 31, 35, .15);
+    -fx-border-width: 1 1 1 1;
+    -fx-border-radius: 6px;
+    -fx-box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    -fx-box-sizing: border-box;
+    -fx-cursor: pointer;
+    -fx-display: inline-block;
+    -fx-font-family: Verdana;
+    /*-fx-font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";*/
+    -fx-font-size: 14px;
+    -fx-font-weight: 600;
+    -fx-line-height: 20px;
+    -fx-padding: 6px 16px;
+    -fx-position: relative;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-user-select: none;
+    -fx-webkit-user-select: none;
+    -fx-touch-action: manipulation;
+    -fx-vertical-align: middle;
+    -fx-white-space: nowrap;
+}
+
+.normal-button:hover {
+
+    -fx-background-color: #ffe999;
+}
+
+.back-button {
+
+    -fx-background-color: transparent;
+    -fx-background-image: url("img/back35.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-border-color: transparent;
+}
+
+.back-button:hover {
+
+    -fx-background-color: #ffe999;
+}
+
+.big-label {
+
+    -fx-font-family: Verdana;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}

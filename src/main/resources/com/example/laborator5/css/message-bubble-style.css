@@ -1,0 +1,38 @@
+.send-box {
+
+    -fx-background-color: #ffc801;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-color: transparent;
+}
+
+.receive-box {
+
+    -fx-background-color:#ffe999;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-color: transparent;
+}
+
+.name-label {
+
+    -fx-font-family: Verdana;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.message-label {
+
+    -fx-font-family: Verdana;
+    -fx-font-size: 14px;
+}
+
+/*
+.profile-picture {
+
+    -fx-background-color: transparent;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-border-color: transparent;
+}
+*/

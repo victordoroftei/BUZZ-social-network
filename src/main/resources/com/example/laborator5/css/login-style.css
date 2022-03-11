@@ -1,0 +1,117 @@
+.left-vbox {
+
+    -fx-background-color: #ffc801;
+    -fx-background-image: url("img/logo.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: top;
+}
+
+.right-vbox {
+
+    -fx-background-color: white;
+}
+
+.menu-button {
+
+    -fx-appearance: none;
+    -fx-background-color: #ffc801;
+    -fx-border-color: rgba(27, 31, 35, .15);
+    -fx-border-width: 1 1 1 1;
+    -fx-border-radius: 6px;
+    -fx-box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    -fx-box-sizing: border-box;
+    -fx-cursor: pointer;
+    -fx-display: inline-block;
+    -fx-font-family: Verdana;
+    /*-fx-font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";*/
+    -fx-font-size: 14px;
+    -fx-font-weight: 600;
+    -fx-line-height: 20px;
+    -fx-padding: 6px 16px;
+    -fx-position: relative;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-user-select: none;
+    -fx-webkit-user-select: none;
+    -fx-touch-action: manipulation;
+    -fx-vertical-align: middle;
+    -fx-white-space: nowrap;
+}
+
+.menu-button:hover {
+
+    -fx-background-color: #ffe999;
+}
+
+.password-button {
+
+    -fx-background-color: transparent;
+    -fx-background-image: url('img/eye.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-border-width: 0 0 0 0;
+}
+
+.label {
+
+    -fx-font-family: Verdana;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.username-text-field {
+
+    -fx-font-family: Verdana;
+    -fx-font-size: 12px;
+    -fx-text-box-border: #ffc801;
+
+}
+
+.username-text-field:focused {
+
+    -fx-focus-color: #ffc801;
+    -fx-faint-focus-color: transparent;
+}
+
+.username-text-field .placeholder .label {
+
+    -fx-font-family: Verdana;
+    -fx-font-size: 12px;
+}
+
+.register-button {
+
+    -fx-background-color: white;
+    -fx-border-color: #ffc801;
+    -fx-text-fill: #ffc801;
+    -fx-font-family: Verdana, bold;
+    -fx-border-width: 1 1 1 1;
+    -fx-border-radius: 6px;
+    -fx-font-size: 14px;
+    -fx-font-weight: 600;
+    -fx-line-height: 20px;
+    -fx-padding: 6px 16px;
+    -fx-position: relative;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-user-select: none;
+    -fx-webkit-user-select: none;
+    -fx-touch-action: manipulation;
+    -fx-vertical-align: middle;
+    -fx-white-space: nowrap;
+}
+
+.register-button:hover {
+
+    -fx-background-color: #ffc801;
+    -fx-background-radius: 10px;
+    -fx-text-fill: black;
+}
+
+.back-button {
+
+    -fx-background-color: transparent;
+    -fx-background-image: url("img/back40.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: top;
+}

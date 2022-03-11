@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="273.0" minHeight="-Infinity" minWidth="-Infinity" prefWidth="273.0" styleClass="hbox" stylesheets="@css/hbox-style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.laborator5.NotificationHBoxController">
+    <children>
+        <Label fx:id="label" prefWidth="221.0" text="Label" />
+        <Button fx:id="button" mnemonicParsing="false" onMousePressed="#onButtonClick" prefHeight="25.0" prefWidth="25.0" />
+    </children>
+</HBox>

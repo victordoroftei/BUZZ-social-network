@@ -1,0 +1,6 @@
+.button {
+
+    -fx-background-color: transparent;
+    -fx-background-image: url('img/eye.png');
+    -fx-background-repeat: no-repeat;
+}

@@ -1,0 +1,131 @@
+.main-box {
+
+    -fx-background-color: linear-gradient(rgba(255,200,1,1) 0%, rgba(255,222,102,1) 50%, rgba(255,233,153,1) 100%);
+}
+
+
+.searchbar {
+
+    -fx-background-radius: 10px;
+    -fx-background-color: white;
+    -fx-font-family: Verdana;
+    -fx-font-size: 12px;
+    -fx-border-color: transparent;
+    -fx-selection-bar-text-fill: black;
+}
+
+.searchbar .arrow {
+
+    -fx-background-color: transparent;
+}
+
+.searchbar .arrow-button {
+
+    -fx-background-color: transparent;
+    -fx-background-image: url("img/search_smaller.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+.combo-box-popup {
+
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+.combo-box-popup .list-view {
+
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-background-color: black;
+}
+
+.searchbar:focused {
+
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.combo-box-popup > .list-view {
+
+    -fx-pref-width: 383;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-selection-bar: white;
+    -fx-selection-bar-non-focused: white;
+    -fx-selection-bar-text-fill: black;
+}
+
+.button-label {
+
+    -fx-font-family: Verdana;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    /*-fx-text-fill: #605c5c;*/
+}
+
+.welcome-label {
+
+    -fx-font-family: Verdana;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.feed-list {
+
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-border-color: transparent;
+    -fx-selection-bar: white;
+    -fx-selection-bar-non-focused: white;
+    -fx-selection-bar-text-fill: black;
+    /*-fx-padding: 3px 0px 0px 0px;*/
+}
+
+.feed-list .list-cell {
+
+    -fx-background-color: white;
+}
+
+.feed-list .thumb {
+
+    -fx-background-color: #605c5c;
+}
+
+.feed-list .decrement-arrow {
+
+    visibility: hidden;
+}
+
+.feed-list .decrement-button {
+
+    visibility: hidden;
+}
+
+.feed-list .increment-arrow {
+
+    visibility: hidden;
+}
+
+.feed-list .increment-button {
+
+    visibility: hidden;
+}
+
+.list-view .scroll-bar:horizontal .increment-arrow,
+.list-view .scroll-bar:horizontal .decrement-arrow,
+.list-view .scroll-bar:horizontal .increment-button,
+.list-view .scroll-bar:horizontal .decrement-button {
+
+    -fx-padding:0;
+}
+
+.notification {
+
+    -fx-background-radius: 10px;
+    -fx-background-color: white;
+    -fx-font-family: Verdana;
+    -fx-font-size: 12px;
+    -fx-border-color: transparent;
+    -fx-selection-bar-text-fill: black;
+}

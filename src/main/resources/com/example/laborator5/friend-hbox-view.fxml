@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="46.0" prefWidth="360.0" styleClass="main-box" stylesheets="@css/search-style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.laborator5.FriendHBoxController">
+    <children>
+        <Button fx:id="profilePicture" mnemonicParsing="false" prefHeight="35.0" prefWidth="34.0" stylesheets="@css/profile-picture.css">
+            <HBox.margin>
+                <Insets left="5.0" />
+            </HBox.margin>
+        </Button>
+        <Label fx:id="nameLabel" text="First_name + last_name(username)">
+            <font>
+                <Font name="Times New Roman" size="16.0" />
+            </font>
+            <HBox.margin>
+                <Insets left="10.0" />
+            </HBox.margin>
+        </Label>
+    </children>
+</HBox>

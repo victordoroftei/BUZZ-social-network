@@ -1,0 +1,13 @@
+.main-box {
+
+    -fx-border-radius: 10px;
+    -fx-border-color: transparent;
+    -fx-background-radius: 10px;
+    -fx-background-color: #ffe999;
+}
+
+.label {
+
+    -fx-font-family: Verdana;
+    -fx-font-size: 14px;
+}

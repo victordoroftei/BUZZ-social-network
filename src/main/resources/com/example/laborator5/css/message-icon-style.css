@@ -1,0 +1,93 @@
+.message-button {
+
+    -fx-background-color: transparent;
+    -fx-background-image: url("img/message.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+
+}
+
+.request-button {
+
+    -fx-background-color: transparent;
+    -fx-background-image: url("img/request.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.event-button {
+
+    -fx-background-color: transparent;
+    -fx-background-image: url("img/event.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.friends-button {
+
+    -fx-background-color: transparent;
+    -fx-background-image: url("img/friends.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.logout-button {
+
+    -fx-background-color: transparent;
+    -fx-background-image: url("img/logout.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.notification-button {
+
+    -fx-background-color: transparent;
+    -fx-background-image: url("img/notification.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.notification-button .arrow {
+
+    -fx-background-color: transparent;
+}
+
+.mute-button {
+
+    -fx-background-color: transparent;
+    -fx-background-image: url("img/mute.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.pdf-button {
+
+    -fx-background-color: transparent;
+    -fx-background-image: url("img/pdf.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.back-button {
+
+    -fx-background-color: transparent;
+    -fx-background-image: url("img/back.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.pencil-button {
+
+    -fx-background-color: transparent;
+    -fx-background-image: url("img/pencil.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.camera-button {
+
+    -fx-background-color: transparent;
+    -fx-background-image: url("img/camera.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}

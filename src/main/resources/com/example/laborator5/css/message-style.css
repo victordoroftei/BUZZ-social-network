@@ -1,0 +1,144 @@
+.main-box {
+
+    /*-fx-background-color: #ffc801;*/
+    /*-fx-background-color: linear-gradient(#ffc801 0%, #ffde66 100%);*/
+    -fx-background-color: linear-gradient(rgba(255,200,1,1) 0%, rgba(255,222,102,1) 50%, rgba(255,233,153,1)  100%);
+}
+
+.small-label {
+
+    -fx-font-family: Verdana;
+    -fx-font-size: 16px;
+}
+
+.big-label {
+
+    -fx-font-family: Verdana;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.button {
+
+    -fx-appearance: none;
+    -fx-background-color: #ffe999;
+    -fx-border-color: rgba(27, 31, 35, .15);
+    -fx-border-width: 1 1 1 1;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 8px;
+    -fx-box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    -fx-box-sizing: border-box;
+    -fx-cursor: pointer;
+    -fx-display: inline-block;
+    -fx-font-family: Verdana;
+    -fx-font-size: 14px;
+    -fx-font-weight: 600;
+    -fx-line-height: 20px;
+    -fx-padding: 6px 16px;
+    -fx-position: relative;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-user-select: none;
+    -fx-webkit-user-select: none;
+    -fx-touch-action: manipulation;
+    -fx-vertical-align: middle;
+    -fx-white-space: nowrap;
+}
+
+.button:hover {
+
+    -fx-background-color: #ffe999;
+}
+
+.message-list {
+
+    /*-fx-background-color:  white;*/
+
+    -fx-background-color:  white;
+    -fx-background-radius: 10px;
+    -fx-border-color: transparent;
+    -fx-selection-bar: white;
+    -fx-selection-bar-non-focused: white;
+    -fx-selection-bar-text-fill: black;
+}
+
+.message-list .thumb {
+
+    -fx-background-color: #605c5c;
+    empty-cells: hidden;
+}
+
+.message-list .decrement-arrow {
+
+    visibility: hidden;
+}
+
+.message-list .decrement-button {
+
+    visibility: hidden;
+}
+
+.message-list .increment-arrow {
+
+    visibility: hidden;
+}
+
+.message-list .increment-button {
+
+    visibility: hidden;
+}
+
+.list-cell, .list-cell {
+
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.list-view .list-cell:hover {
+
+    -fx-border-color: #605c5c;
+    -fx-border-radius: 10px;
+    -fx-border-width: 1px;
+}
+
+.list-cell:even {
+
+    -fx-font-family: Verdana;
+    -fx-font-size: 12px;
+    -fx-background-color: #ffe999;
+}
+
+.list-cell:odd {
+
+    -fx-font-family: Verdana;
+    -fx-font-size: 12px;
+    -fx-background-color: #ffde66;
+}
+
+.back-button {
+
+    -fx-background-color: transparent;
+    -fx-background-image: url("img/back35.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-border-color: transparent;
+}
+
+.back-button:hover {
+
+    -fx-background-color: #ffe999;
+}
+
+.compose-button {
+
+    -fx-background-color: transparent;
+    -fx-background-image: url("img/create35.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-border-color: transparent;
+}
+
+.compose-button:hover {
+
+    -fx-background-color: #ffe999;
+}

@@ -1,0 +1,12 @@
+.button {
+
+    -fx-background-color: #fc5d57;
+    -fx-background-radius: 28px;
+
+    -fx-text-fill: white;
+
+    -fx-cursor: pointer;
+    -fx-text-alignment: center;
+
+
+}
